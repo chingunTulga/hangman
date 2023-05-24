@@ -6,19 +6,22 @@
 <body>
 	<h1>Hangman!</h1>
 
+	<button onclick="startGame()">Press here to start.</button>
+
 	<script>
-//create an array of words
-	var words = [
-		"book",
-		"monkey",
-		"lunch",
-		"teacher",
-		"project",
-		"cube",
-		"mouse",
-		"slime",
-		'desktop'];
-	//pick a random word
+		function startGame() {
+			//create an array of words
+				var words = [
+					"book",
+					"monkey",
+					"lunch",
+					"teacher",
+					"project",
+					"cube",
+					"mouse",
+					"slime",
+					'desktop'];
+				//pick a random word
 	var word = words[Math.floor(Math.random() * words.length)];
 	// set up the answer array
 	var answerArray = [];
@@ -53,6 +56,7 @@
 		// show the answer and congratulate the player
 		alert(answerArray.join(" "));
 		alert("Good job! The answer was " + word);
+	}
 	</script>
 </body>
 </html>
