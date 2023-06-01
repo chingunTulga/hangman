@@ -42,7 +42,7 @@ window.onload = function () {
     // Select Catagory
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
-        catagoryName.innerHTML = "The Chosen Category Is Premier League Football Teams";
+        catagoryName.innerHTML = "The Chosen Catagory Is Anime Characters";
       } else if (chosenCategory === categories[1]) {
         catagoryName.innerHTML = "The Chosen Category Is Films";
       } else if (chosenCategory === categories[2]) {
@@ -183,7 +183,7 @@ window.onload = function () {
     // Play
     play = function () {
       categories = [
-          ["everton", "liverpool", "swansea", "chelsea", "hull", "manchester-city", "newcastle-united"],
+          ["everton", "liverpool", "swansea", "chelsea", "hull", "manchester-city", "giyu-tomioka"],
           ["alien", "dirty-harry", "gladiator", "finding-nemo", "jaws"],
           ["manchester", "milan", "madrid", "amsterdam", "prague"]
       ];
@@ -211,7 +211,7 @@ window.onload = function () {
       hint.onclick = function() {
   
         hints = [
-          ["Based in Mersyside", "Based in Mersyside", "First Welsh team to reach the Premier Leauge", "Owned by A russian Billionaire", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
+          ["Based in Mersyside", "Based in Mersyside", "Uses The Water Breathing Style", "Owned by A russian Billionaire", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
           ["Science-Fiction horror film", "1971 American action film", "Historical drama", "Animated Fish", "Giant great white shark"],
           ["Northern city in the UK", "Home of AC and Inter", "Spanish capital", "Netherlands capital", "Czech Republic capital"]
       ];
